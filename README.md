@@ -8,5 +8,5 @@ pip install -r requirements.txt
 python -m app
 
 ## License
-MIT License 
+MIT License  
 Copyright (c) 2023 Alex J.
