@@ -19,8 +19,8 @@ while True:
       # Save new text to file
       with open('clipboard.txt', 'a', encoding='utf-8') as f:
         now = datetime.datetime.now()
-        date_string = now.strftime('%Y-%m-%d %H:%M:%S')
-        f.write(date_string + '\n' + clipboard_text + '\n')
+        date_string = now.strftime('%B %d')
+        f.write('\n' + date_string + '\n' + clipboard_text + '\n')
       # Update previous text  
       previous_clipboard_text = clipboard_text
 
