@@ -9,4 +9,4 @@ python -m app
 
 ## License
 MIT License  
-Copyright (c) 2023 Alex J.
+Copyright (c) 2023 Alex J...
